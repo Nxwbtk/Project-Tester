@@ -16,10 +16,11 @@ public class SortingTest {
 	
 	@SuppressWarnings("static-access")
 	@Test
-	@Ignore
+//	@Ignore
 	public void	printTest() {
 		Sorting sort = new Sorting();
 		int[]	correct = {1, 2, 3, 4, 5, 6};
-		sort.printArray(correct, 6);
+		sort.printArray(correct, correct.length);
+		sort.printArray(correct, 0);
 	}
 }
